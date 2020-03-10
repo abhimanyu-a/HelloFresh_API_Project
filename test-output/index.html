@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-HelloFresh_API_TestSuite">
+              <span class="suite-name border-failed">HelloFresh_API_TestSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-HelloFresh_API_TestSuite">
+                    <span>C:\Users\NDH00649\Desktop\MyWorkSpace\hellofresh-api-project\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-HelloFresh_API_TestSuite">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-HelloFresh_API_TestSuite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-HelloFresh_API_TestSuite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-HelloFresh_API_TestSuite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-HelloFresh_API_TestSuite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-HelloFresh_API_TestSuite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">9 methods, 2 failed,   7 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-HelloFresh_API_TestSuite" class="hide-methods failed suite-HelloFresh_API_TestSuite"> (hide)</a> <!-- hide-methods failed suite-HelloFresh_API_TestSuite -->
+                      <a href="#" panel-name="suite-HelloFresh_API_TestSuite" class="show-methods failed suite-HelloFresh_API_TestSuite"> (show)</a> <!-- show-methods failed suite-HelloFresh_API_TestSuite -->
+                    </span>
+                    <div class="method-list-content failed suite-HelloFresh_API_TestSuite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-HelloFresh_API_TestSuite" title="com.hellofresh.test.DriverTest" hash-for-method="TC03_POST_CreateBooking({firstname=Jean, checkoutdate=2020-03-19, checkindate=2020-03-18, phone=1.23468E+15, depositpaid=TRU...)">TC03_POST_CreateBooking({firstname=Jean, checkoutdate=2020-03-19, checkindate=2020-03-18, phone=1.23468E+15, depositpaid=TRU...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-HelloFresh_API_TestSuite" title="com.hellofresh.test.NegativeTest" hash-for-method="TC05_POST_CreateBookinDuplicateForSameDate">TC05_POST_CreateBookinDuplicateForSameDate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-HelloFresh_API_TestSuite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-HelloFresh_API_TestSuite" class="hide-methods passed suite-HelloFresh_API_TestSuite"> (hide)</a> <!-- hide-methods passed suite-HelloFresh_API_TestSuite -->
+                      <a href="#" panel-name="suite-HelloFresh_API_TestSuite" class="show-methods passed suite-HelloFresh_API_TestSuite"> (show)</a> <!-- show-methods passed suite-HelloFresh_API_TestSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-HelloFresh_API_TestSuite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-HelloFresh_API_TestSuite" title="com.hellofresh.test.DriverTest" hash-for-method="TC01_GET_GetAllBookingsTest">TC01_GET_GetAllBookingsTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-HelloFresh_API_TestSuite" title="com.hellofresh.test.DriverTest" hash-for-method="TC02_GET_RetrieveBookingById">TC02_GET_RetrieveBookingById</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-HelloFresh_API_TestSuite" title="com.hellofresh.test.NegativeTest" hash-for-method="TC06_GET_IncorrectUriTest">TC06_GET_IncorrectUriTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-HelloFresh_API_TestSuite" title="com.hellofresh.test.NegativeTest" hash-for-method="TC07_POST_CheckinDateGreaterThanCheckoutDate">TC07_POST_CheckinDateGreaterThanCheckoutDate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-HelloFresh_API_TestSuite" title="com.hellofresh.test.NegativeTest" hash-for-method="TC08_POST_CreateBookingWithMissingData({firstname=, checkoutdate=2020-03-19, TC_Name=FirstName_Missing, checkindate=2020-03-18, phone=1.234...)">TC08_POST_CreateBookingWithMissingData({firstname=, checkoutdate=2020-03-19, TC_Name=FirstName_Missing, checkindate=2020-03-18, phone=1.234...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-HelloFresh_API_TestSuite" title="com.hellofresh.test.NegativeTest" hash-for-method="TC08_POST_CreateBookingWithMissingData({firstname=Jean, checkoutdate=2020-03-19, TC_Name=Email_Incorrect_Format, checkindate=2020-03-18, ph...)">TC08_POST_CreateBookingWithMissingData({firstname=Jean, checkoutdate=2020-03-19, TC_Name=Email_Incorrect_Format, checkindate=2020-03-18, ph...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-HelloFresh_API_TestSuite" title="com.hellofresh.test.NegativeTest" hash-for-method="TC08_POST_CreateBookingWithMissingData({firstname=Jean, checkoutdate=2020-03-19, TC_Name=RoomId_Zero, checkindate=2020-03-18, phone=1.23468...)">TC08_POST_CreateBookingWithMissingData({firstname=Jean, checkoutdate=2020-03-19, TC_Name=RoomId_Zero, checkindate=2020-03-18, phone=1.23468...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-HelloFresh_API_TestSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-HelloFresh_API_TestSuite" class="panel HelloFresh_API_TestSuite">
+          <div class="suite-HelloFresh_API_TestSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.hellofresh.test.DriverTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC03_POST_CreateBooking({firstname=Jean, checkoutdate=2020-03-19, checkindate=2020-03-18, phone=1.23468E+15, depositpaid=TRU...)">
+                  </a> <!-- TC03_POST_CreateBooking({firstname=Jean, checkoutdate=2020-03-19, checkindate=2020-03-18, phone=1.23468E+15, depositpaid=TRU...) -->
+                  <span class="method-name">TC03_POST_CreateBooking</span>
+                  <span class="parameters">({firstname=Jean, checkoutdate=2020-03-19, checkindate=2020-03-18, phone=1.23468E+15, depositpaid=TRUE, email=jean.doe@jeandoe.com, bookingid=101, roomid=2255, lastname=Doe})</span>
+                  <div class="stack-trace">com.hellofresh.utils.TestFailureException: Test step failed..
+	at com.hellofresh.utils.LoggerUtils.fail(LoggerUtils.java:124)
+	at com.hellofresh.utils.TestUtils.checkStatusCode(TestUtils.java:47)
+	at com.hellofresh.test.DriverTest.TC03_POST_CreateBooking(DriverTest.java:95)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-HelloFresh_API_TestSuite-class-failed -->
+          <div class="suite-HelloFresh_API_TestSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.hellofresh.test.NegativeTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC05_POST_CreateBookinDuplicateForSameDate">
+                  </a> <!-- TC05_POST_CreateBookinDuplicateForSameDate -->
+                  <span class="method-name">TC05_POST_CreateBookinDuplicateForSameDate</span>
+                  <div class="stack-trace">com.hellofresh.utils.TestFailureException: Test step failed..
+	at com.hellofresh.utils.LoggerUtils.fail(LoggerUtils.java:124)
+	at com.hellofresh.utils.TestUtils.checkStatusCode(TestUtils.java:47)
+	at com.hellofresh.test.NegativeTest.TC05_POST_CreateBookinDuplicateForSameDate(NegativeTest.java:32)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Create duplicate booking for the same date)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-HelloFresh_API_TestSuite-class-failed -->
+          <div class="suite-HelloFresh_API_TestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.hellofresh.test.DriverTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC01_GET_GetAllBookingsTest">
+                  </a> <!-- TC01_GET_GetAllBookingsTest -->
+                  <span class="method-name">TC01_GET_GetAllBookingsTest</span>
+                  <em>
+(Test that at least 1 existing booking is returned in the response)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC02_GET_RetrieveBookingById">
+                  </a> <!-- TC02_GET_RetrieveBookingById -->
+                  <span class="method-name">TC02_GET_RetrieveBookingById</span>
+                  <em>
+(Test that the data returned for an existing booking matches)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-HelloFresh_API_TestSuite-class-passed -->
+          <div class="suite-HelloFresh_API_TestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.hellofresh.test.NegativeTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC06_GET_IncorrectUriTest">
+                  </a> <!-- TC06_GET_IncorrectUriTest -->
+                  <span class="method-name">TC06_GET_IncorrectUriTest</span>
+                  <em>
+(Calling incorrect end-point)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC07_POST_CheckinDateGreaterThanCheckoutDate">
+                  </a> <!-- TC07_POST_CheckinDateGreaterThanCheckoutDate -->
+                  <span class="method-name">TC07_POST_CheckinDateGreaterThanCheckoutDate</span>
+                  <em>
+(Create booking when check-in date is greater than check-out date)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC08_POST_CreateBookingWithMissingData({firstname=, checkoutdate=2020-03-19, TC_Name=FirstName_Missing, checkindate=2020-03-18, phone=1.234...)">
+                  </a> <!-- TC08_POST_CreateBookingWithMissingData({firstname=, checkoutdate=2020-03-19, TC_Name=FirstName_Missing, checkindate=2020-03-18, phone=1.234...) -->
+                  <span class="method-name">TC08_POST_CreateBookingWithMissingData</span>
+                  <span class="parameters">({firstname=, checkoutdate=2020-03-19, TC_Name=FirstName_Missing, checkindate=2020-03-18, phone=1.23468E+15, depositpaid=TRUE, email=jean.doe@jeandoe.com, bookingid=201, roomid=2255, lastname=Doe})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC08_POST_CreateBookingWithMissingData({firstname=Jean, checkoutdate=2020-03-19, TC_Name=Email_Incorrect_Format, checkindate=2020-03-18, ph...)">
+                  </a> <!-- TC08_POST_CreateBookingWithMissingData({firstname=Jean, checkoutdate=2020-03-19, TC_Name=Email_Incorrect_Format, checkindate=2020-03-18, ph...) -->
+                  <span class="method-name">TC08_POST_CreateBookingWithMissingData</span>
+                  <span class="parameters">({firstname=Jean, checkoutdate=2020-03-19, TC_Name=Email_Incorrect_Format, checkindate=2020-03-18, phone=1.23468E+15, depositpaid=TRUE, email=efev!223, bookingid=203, roomid=2255, lastname=Doe})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC08_POST_CreateBookingWithMissingData({firstname=Jean, checkoutdate=2020-03-19, TC_Name=RoomId_Zero, checkindate=2020-03-18, phone=1.23468...)">
+                  </a> <!-- TC08_POST_CreateBookingWithMissingData({firstname=Jean, checkoutdate=2020-03-19, TC_Name=RoomId_Zero, checkindate=2020-03-18, phone=1.23468...) -->
+                  <span class="method-name">TC08_POST_CreateBookingWithMissingData</span>
+                  <span class="parameters">({firstname=Jean, checkoutdate=2020-03-19, TC_Name=RoomId_Zero, checkindate=2020-03-18, phone=1.23468E+15, depositpaid=TRUE, email=jean.doe@jeandoe.com, bookingid=205, roomid=0, lastname=Doe})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-HelloFresh_API_TestSuite-class-passed -->
+        </div> <!-- panel HelloFresh_API_TestSuite -->
+        <div panel-name="test-xml-HelloFresh_API_TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\NDH00649\Desktop\MyWorkSpace\hellofresh-api-project\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;HelloFresh_API_TestSuite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;HelloFresh_Positive_Tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.hellofresh.test.DriverTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- HelloFresh_Positive_Tests --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;HelloFresh_Negative_Tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.hellofresh.test.NegativeTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- HelloFresh_Negative_Tests --&gt;
+&lt;/suite&gt; &lt;!-- HelloFresh_API_TestSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-HelloFresh_API_TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for HelloFresh_API_TestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">HelloFresh_Positive_Tests (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">HelloFresh_Negative_Tests (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-HelloFresh_API_TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for HelloFresh_API_TestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-HelloFresh_API_TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for HelloFresh_API_TestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_HelloFresh_API_TestSuite');
+function tableData_HelloFresh_API_TestSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(9);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'TC01_GET_GetAllBookingsTest')
+data.setCell(0, 2, 'com.hellofresh.test.DriverTest')
+data.setCell(0, 3, 2002);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'TC08_POST_CreateBookingWithMissingData')
+data.setCell(1, 2, 'com.hellofresh.test.NegativeTest')
+data.setCell(1, 3, 1007);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'TC08_POST_CreateBookingWithMissingData')
+data.setCell(2, 2, 'com.hellofresh.test.NegativeTest')
+data.setCell(2, 3, 956);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'TC08_POST_CreateBookingWithMissingData')
+data.setCell(3, 2, 'com.hellofresh.test.NegativeTest')
+data.setCell(3, 3, 953);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'TC02_GET_RetrieveBookingById')
+data.setCell(4, 2, 'com.hellofresh.test.DriverTest')
+data.setCell(4, 3, 917);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'TC03_POST_CreateBooking')
+data.setCell(5, 2, 'com.hellofresh.test.DriverTest')
+data.setCell(5, 3, 900);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'TC06_GET_IncorrectUriTest')
+data.setCell(6, 2, 'com.hellofresh.test.NegativeTest')
+data.setCell(6, 3, 895);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'TC05_POST_CreateBookinDuplicateForSameDate')
+data.setCell(7, 2, 'com.hellofresh.test.NegativeTest')
+data.setCell(7, 3, 779);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'TC07_POST_CheckinDateGreaterThanCheckoutDate')
+data.setCell(8, 2, 'com.hellofresh.test.NegativeTest')
+data.setCell(8, 3, 719);
+window.suiteTableData['HelloFresh_API_TestSuite']= { tableData: data, tableDiv: 'times-div-HelloFresh_API_TestSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 9 seconds</span>
+              <div id="times-div-HelloFresh_API_TestSuite">
+              </div> <!-- times-div-HelloFresh_API_TestSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-HelloFresh_API_TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for HelloFresh_API_TestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-HelloFresh_API_TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-HelloFresh_API_TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.hellofresh.test.DriverTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod([TestResult name={null} status=CREATED method=DriverTest.TC01_GET_GetAllBookingsTest()[pri:0, instan...)</span>
+                <span class="method-start">61 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC01_GET_GetAllBookingsTest</span>
+                <span class="method-start">66 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=TC01_GET_GetAllBookingsTest status=SUCCESS method=DriverTest.TC01_GET_GetAllBooking...)</span>
+                <span class="method-start">2074 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod([TestResult name={null} status=CREATED method=DriverTest.TC02_GET_RetrieveBookingById()[pri:1, insta...)</span>
+                <span class="method-start">2080 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC02_GET_RetrieveBookingById</span>
+                <span class="method-start">2082 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=TC02_GET_RetrieveBookingById status=SUCCESS method=DriverTest.TC02_GET_RetrieveBook...)</span>
+                <span class="method-start">3002 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod([TestResult name={null} status=CREATED method=DriverTest.TC03_POST_CreateBooking(java.util.Map)[pri:...)</span>
+                <span class="method-start">4164 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TC03_POST_CreateBooking({firstname=Jean, checkoutdate=2020-03-19, checkindate=2020-03-18, phone=1.23468E+15, depositpaid=TRU...)</span>
+                <span class="method-start">4165 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=TC03_POST_CreateBooking status=FAILURE method=DriverTest.TC03_POST_CreateBooking(ja...)</span>
+                <span class="method-start">5073 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">5078 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.hellofresh.test.NegativeTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">5130 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod([TestResult name={null} status=CREATED method=NegativeTest.TC05_POST_CreateBookinDuplicateForSameDat...)</span>
+                <span class="method-start">5132 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TC05_POST_CreateBookinDuplicateForSameDate</span>
+                <span class="method-start">5133 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=TC05_POST_CreateBookinDuplicateForSameDate status=FAILURE method=NegativeTest.TC05_...)</span>
+                <span class="method-start">5915 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod([TestResult name={null} status=CREATED method=NegativeTest.TC06_GET_IncorrectUriTest()[pri:0, instan...)</span>
+                <span class="method-start">5916 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC06_GET_IncorrectUriTest</span>
+                <span class="method-start">5917 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=TC06_GET_IncorrectUriTest status=SUCCESS method=NegativeTest.TC06_GET_IncorrectUriT...)</span>
+                <span class="method-start">6814 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod([TestResult name={null} status=CREATED method=NegativeTest.TC07_POST_CheckinDateGreaterThanCheckoutD...)</span>
+                <span class="method-start">6816 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC07_POST_CheckinDateGreaterThanCheckoutDate</span>
+                <span class="method-start">6817 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=TC07_POST_CheckinDateGreaterThanCheckoutDate status=SUCCESS method=NegativeTest.TC0...)</span>
+                <span class="method-start">7537 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod([TestResult name={null} status=CREATED method=NegativeTest.TC08_POST_CreateBookingWithMissingData(ja...)</span>
+                <span class="method-start">7715 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC08_POST_CreateBookingWithMissingData({firstname=, checkoutdate=2020-03-19, TC_Name=FirstName_Missing, checkindate=2020-03-18, phone=1.234...)</span>
+                <span class="method-start">7717 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=TC08_POST_CreateBookingWithMissingData status=SUCCESS method=NegativeTest.TC08_POST...)</span>
+                <span class="method-start">8726 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod([TestResult name={null} status=CREATED method=NegativeTest.TC08_POST_CreateBookingWithMissingData(ja...)</span>
+                <span class="method-start">8727 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC08_POST_CreateBookingWithMissingData({firstname=Jean, checkoutdate=2020-03-19, TC_Name=Email_Incorrect_Format, checkindate=2020-03-18, ph...)</span>
+                <span class="method-start">8728 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=TC08_POST_CreateBookingWithMissingData status=SUCCESS method=NegativeTest.TC08_POST...)</span>
+                <span class="method-start">9683 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod([TestResult name={null} status=CREATED method=NegativeTest.TC08_POST_CreateBookingWithMissingData(ja...)</span>
+                <span class="method-start">9685 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC08_POST_CreateBookingWithMissingData({firstname=Jean, checkoutdate=2020-03-19, TC_Name=RoomId_Zero, checkindate=2020-03-18, phone=1.23468...)</span>
+                <span class="method-start">9686 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=TC08_POST_CreateBookingWithMissingData status=SUCCESS method=NegativeTest.TC08_POST...)</span>
+                <span class="method-start">10644 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">10645 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

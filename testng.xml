@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="HelloFresh_API_TestSuite" parallel="false">
+  <test name="HelloFresh_Positive_Tests">
+    <classes>
+      <class name="com.hellofresh.test.DriverTest"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="HelloFresh_Negative_Tests">
+    <classes>
+      <class name="com.hellofresh.test.NegativeTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

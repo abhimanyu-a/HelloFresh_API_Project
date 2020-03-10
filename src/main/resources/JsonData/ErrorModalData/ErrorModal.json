@@ -1,0 +1,9 @@
+{
+  "timestamp": "2020-03-09T11:10:55.959+0000",
+  "status": 400,
+  "error": "Bad Request",
+  "errors": [
+   ],
+  "message": "Validation failed for object='booking'. Error count: 2",
+  "path": "/booking/"
+}

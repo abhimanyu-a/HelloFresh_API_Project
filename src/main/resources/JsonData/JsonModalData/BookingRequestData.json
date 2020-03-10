@@ -1,0 +1,13 @@
+{
+  "bookingdates": {
+    "checkin": "2020-04-02",
+    "checkout": "2020-04-04"
+  },
+  "bookingid": 200,
+  "depositpaid": true,
+  "email": "dean.joe@deanjoe.com",
+  "firstname": "Dean",
+  "lastname": "Joe",
+  "phone": "987654321236",
+  "roomid": 2255
+}

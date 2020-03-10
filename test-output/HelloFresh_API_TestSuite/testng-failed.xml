@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [HelloFresh_API_TestSuite]">
+  <test thread-count="5" name="HelloFresh_Positive_Tests(failed)">
+    <classes>
+      <class name="com.hellofresh.test.DriverTest">
+        <methods>
+          <include name="TC03_POST_CreateBooking" invocation-numbers="0"/>
+          <include name="beforeMethod"/>
+          <include name="setup"/>
+          <include name="afterMethod"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.hellofresh.test.DriverTest -->
+    </classes>
+  </test> <!-- HelloFresh_Positive_Tests(failed) -->
+  <test thread-count="5" name="HelloFresh_Negative_Tests(failed)">
+    <classes>
+      <class name="com.hellofresh.test.NegativeTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="setup"/>
+          <include name="afterMethod"/>
+          <include name="TC05_POST_CreateBookinDuplicateForSameDate"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.hellofresh.test.NegativeTest -->
+    </classes>
+  </test> <!-- HelloFresh_Negative_Tests(failed) -->
+</suite> <!-- Failed suite [HelloFresh_API_TestSuite] -->
