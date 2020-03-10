@@ -17,9 +17,11 @@ Some of the key features of the API framework are:
 
 ## Project Summary
 
-The test cases **DriverTest.java** and and **NegativeTest.java* are placed in the src/test/java location inside the com.hellofresh.test package.
+The test cases **DriverTest.java** and and **NegativeTest.java** are placed in the src/test/java location inside the com.hellofresh.test package.
 The POJO modals are present in the location src/main/java with the package com.hellofresh.modals. The config file is presnt in src/main/resources folder.
 The http client managemenet and initialization is inside the src/main/java folder within the package com.hellofresh.client.
+The logs are placed under the root folder in a folder logs.
+The **TestNG** native reports can be accessed from root -> test-output-> HelloFresh_PositiveTest.html
 
 ## Test Cases 
 For all of the below test cases the STATUS CODE, STATUS MESSAGE and Response body is compared. For instance, for the test case to create 
@@ -35,6 +37,8 @@ GET response modals are comapred.
 - Test Case5: Calling incorrect end-point
 - Test Case5: Create booking when check-in date is greater than check-out date
 - Test Case 6: CreateBookingWithMissingData
+
+<img width="960" alt="sheetHF" src="https://user-images.githubusercontent.com/54126870/76314976-cb94dc80-62fd-11ea-9d8d-2b94327903ff.PNG">
 
 
 
