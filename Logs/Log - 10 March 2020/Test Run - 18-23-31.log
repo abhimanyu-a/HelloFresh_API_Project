@@ -1,0 +1,55 @@
+
+INFO Tue Mar 10 18:23:31 IST 2020: End point set as: /booking
+INFO Tue Mar 10 18:23:31 IST 2020: Calling GET request by passing URI
+INFO Tue Mar 10 18:23:34 IST 2020: GET call is succesful
+INFO Tue Mar 10 18:23:34 IST 2020: Http Response Status code is as expected : 200
+INFO Tue Mar 10 18:23:34 IST 2020: Reponse body extracted
+INFO Tue Mar 10 18:23:34 IST 2020: Converted response body to required modal
+INFO Tue Mar 10 18:23:34 IST 2020: PASSED: TC01_GET_GetAllBookingsTest
+INFO Tue Mar 10 18:23:34 IST 2020: End point set as: /booking
+INFO Tue Mar 10 18:23:34 IST 2020: Testing for Booking Id: 1
+INFO Tue Mar 10 18:23:34 IST 2020: Calling GET request by passing URI and booking Id
+INFO Tue Mar 10 18:23:35 IST 2020: GET call is succesful
+INFO Tue Mar 10 18:23:35 IST 2020: GET call has been made
+INFO Tue Mar 10 18:23:35 IST 2020: Http Response Status code is as expected : 200
+INFO Tue Mar 10 18:23:35 IST 2020: Reponse body extracted
+INFO Tue Mar 10 18:23:35 IST 2020: Modal to Modal comparison is successful
+INFO Tue Mar 10 18:23:35 IST 2020: Request modal and response modal do match
+INFO Tue Mar 10 18:23:35 IST 2020: PASSED: TC02_GET_RetrieveBookingById
+INFO Tue Mar 10 18:23:36 IST 2020: End point set as: /booking
+INFO Tue Mar 10 18:23:36 IST 2020: Building of POST request modal is completed
+INFO Tue Mar 10 18:23:36 IST 2020: Make POST call to create a booking
+INFO Tue Mar 10 18:23:36 IST 2020: Calling POST request by passing URI and BOOKING modal
+INFO Tue Mar 10 18:23:37 IST 2020: POST call is succesful
+INFO Tue Mar 10 18:23:37 IST 2020: Http Response Status code is as expected : 201
+INFO Tue Mar 10 18:23:37 IST 2020: Reponse body extracted
+INFO Tue Mar 10 18:23:37 IST 2020: Response body has been converted to required modal
+INFO Tue Mar 10 18:23:37 IST 2020: Http Response Status code is as expected : 201
+INFO Tue Mar 10 18:23:37 IST 2020: Calling GET request by passing URI and booking Id
+INFO Tue Mar 10 18:23:38 IST 2020: GET call is succesful
+INFO Tue Mar 10 18:23:38 IST 2020: Http Response Status code is as expected : 200
+INFO Tue Mar 10 18:23:38 IST 2020: New booking created
+INFO Tue Mar 10 18:23:38 IST 2020: PASSED: TC03_POST_CreateBooking
+INFO Tue Mar 10 18:23:38 IST 2020: Calling POST request by passing URI and BOOKING modal
+INFO Tue Mar 10 18:23:39 IST 2020: POST call is succesful
+INFO Tue Mar 10 18:23:39 IST 2020: Http Response Status code is as expected : 201
+INFO Tue Mar 10 18:23:39 IST 2020: Calling POST request by passing URI and BOOKING modal
+INFO Tue Mar 10 18:23:40 IST 2020: POST call is succesful
+INFO Tue Mar 10 18:23:40 IST 2020: Http Response Status code is as expected : 409
+INFO Tue Mar 10 18:23:40 IST 2020: Calling GET request by passing URI and booking Id
+INFO Tue Mar 10 18:23:41 IST 2020: GET call is succesful
+INFO Tue Mar 10 18:23:41 IST 2020: Http Response Status code is as expected : 404
+INFO Tue Mar 10 18:23:41 IST 2020: Reponse body extracted
+INFO Tue Mar 10 18:23:41 IST 2020: Modal to Modal comparison is successful
+INFO Tue Mar 10 18:23:41 IST 2020: Calling POST request by passing URI and BOOKING modal
+INFO Tue Mar 10 18:23:42 IST 2020: POST call is succesful
+INFO Tue Mar 10 18:23:42 IST 2020: Http Response Status code is as expected : 409
+INFO Tue Mar 10 18:23:42 IST 2020: Calling POST request by passing URI and BOOKING modal
+INFO Tue Mar 10 18:23:43 IST 2020: POST call is succesful
+INFO Tue Mar 10 18:23:43 IST 2020: Http Response Status code is as expected : 400
+INFO Tue Mar 10 18:23:43 IST 2020: Calling POST request by passing URI and BOOKING modal
+INFO Tue Mar 10 18:23:44 IST 2020: POST call is succesful
+INFO Tue Mar 10 18:23:44 IST 2020: Http Response Status code is as expected : 400
+INFO Tue Mar 10 18:23:44 IST 2020: Calling POST request by passing URI and BOOKING modal
+INFO Tue Mar 10 18:23:45 IST 2020: POST call is succesful
+INFO Tue Mar 10 18:23:45 IST 2020: Http Response Status code is as expected : 400

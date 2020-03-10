@@ -1,0 +1,194 @@
+2020-03-10 18:23:31,679 - HelloFresh.APIProject -INFO - Starting HelloFresh API tests
+2020-03-10 18:23:31,679 [main] INFO HelloFresh.APIProject - Starting HelloFresh API tests
+2020-03-10 18:23:31,727 - HelloFresh.APIProject -INFO - Started Test: TC01_GET_GetAllBookingsTest
+2020-03-10 18:23:31,727 [main] INFO HelloFresh.APIProject - Started Test: TC01_GET_GetAllBookingsTest
+2020-03-10 18:23:31,744 - com.hellofresh.test.DriverTest -INFO - INFO Tue Mar 10 18:23:31 IST 2020: End point set as: /booking
+2020-03-10 18:23:31,744 [main] INFO com.hellofresh.test.DriverTest - INFO Tue Mar 10 18:23:31 IST 2020: End point set as: /booking
+2020-03-10 18:23:31,757 - com.hellofresh.services.ServiceClass -INFO - INFO Tue Mar 10 18:23:31 IST 2020: Calling GET request by passing URI
+2020-03-10 18:23:31,757 [main] INFO com.hellofresh.services.ServiceClass - INFO Tue Mar 10 18:23:31 IST 2020: Calling GET request by passing URI
+2020-03-10 18:23:34,558 - com.hellofresh.services.ServiceClass -INFO - INFO Tue Mar 10 18:23:34 IST 2020: GET call is succesful
+2020-03-10 18:23:34,558 [main] INFO com.hellofresh.services.ServiceClass - INFO Tue Mar 10 18:23:34 IST 2020: GET call is succesful
+2020-03-10 18:23:34,565 - com.hellofresh.utils.TestUtils -INFO - INFO Tue Mar 10 18:23:34 IST 2020: Http Response Status code is as expected : 200
+2020-03-10 18:23:34,565 [main] INFO com.hellofresh.utils.TestUtils - INFO Tue Mar 10 18:23:34 IST 2020: Http Response Status code is as expected : 200
+2020-03-10 18:23:34,572 - com.hellofresh.utils.TestUtils -INFO - INFO Tue Mar 10 18:23:34 IST 2020: Reponse body extracted
+2020-03-10 18:23:34,572 [main] INFO com.hellofresh.utils.TestUtils - INFO Tue Mar 10 18:23:34 IST 2020: Reponse body extracted
+2020-03-10 18:23:34,588 - com.hellofresh.test.DriverTest -INFO - INFO Tue Mar 10 18:23:34 IST 2020: Converted response body to required modal
+2020-03-10 18:23:34,588 [main] INFO com.hellofresh.test.DriverTest - INFO Tue Mar 10 18:23:34 IST 2020: Converted response body to required modal
+2020-03-10 18:23:34,606 - com.hellofresh.test.DriverTest -INFO - INFO Tue Mar 10 18:23:34 IST 2020: PASSED: TC01_GET_GetAllBookingsTest
+2020-03-10 18:23:34,606 [main] INFO com.hellofresh.test.DriverTest - INFO Tue Mar 10 18:23:34 IST 2020: PASSED: TC01_GET_GetAllBookingsTest
+2020-03-10 18:23:34,613 - HelloFresh.APIProject -INFO - Started Test: TC02_GET_RetrieveBookingById
+2020-03-10 18:23:34,613 [main] INFO HelloFresh.APIProject - Started Test: TC02_GET_RetrieveBookingById
+2020-03-10 18:23:34,618 - com.hellofresh.test.DriverTest -INFO - INFO Tue Mar 10 18:23:34 IST 2020: End point set as: /booking
+2020-03-10 18:23:34,618 [main] INFO com.hellofresh.test.DriverTest - INFO Tue Mar 10 18:23:34 IST 2020: End point set as: /booking
+2020-03-10 18:23:34,621 - com.hellofresh.test.DriverTest -INFO - INFO Tue Mar 10 18:23:34 IST 2020: Testing for Booking Id: 1
+2020-03-10 18:23:34,621 [main] INFO com.hellofresh.test.DriverTest - INFO Tue Mar 10 18:23:34 IST 2020: Testing for Booking Id: 1
+2020-03-10 18:23:34,633 - com.hellofresh.services.ServiceClass -INFO - INFO Tue Mar 10 18:23:34 IST 2020: Calling GET request by passing URI and booking Id
+2020-03-10 18:23:34,633 [main] INFO com.hellofresh.services.ServiceClass - INFO Tue Mar 10 18:23:34 IST 2020: Calling GET request by passing URI and booking Id
+2020-03-10 18:23:35,480 - com.hellofresh.services.ServiceClass -INFO - INFO Tue Mar 10 18:23:35 IST 2020: GET call is succesful
+2020-03-10 18:23:35,480 [main] INFO com.hellofresh.services.ServiceClass - INFO Tue Mar 10 18:23:35 IST 2020: GET call is succesful
+2020-03-10 18:23:35,482 - com.hellofresh.test.DriverTest -INFO - INFO Tue Mar 10 18:23:35 IST 2020: GET call has been made
+2020-03-10 18:23:35,482 [main] INFO com.hellofresh.test.DriverTest - INFO Tue Mar 10 18:23:35 IST 2020: GET call has been made
+2020-03-10 18:23:35,484 - com.hellofresh.utils.TestUtils -INFO - INFO Tue Mar 10 18:23:35 IST 2020: Http Response Status code is as expected : 200
+2020-03-10 18:23:35,484 [main] INFO com.hellofresh.utils.TestUtils - INFO Tue Mar 10 18:23:35 IST 2020: Http Response Status code is as expected : 200
+2020-03-10 18:23:35,488 - com.hellofresh.utils.TestUtils -INFO - INFO Tue Mar 10 18:23:35 IST 2020: Reponse body extracted
+2020-03-10 18:23:35,488 [main] INFO com.hellofresh.utils.TestUtils - INFO Tue Mar 10 18:23:35 IST 2020: Reponse body extracted
+2020-03-10 18:23:35,508 - com.hellofresh.utils.TestUtils -INFO - INFO Tue Mar 10 18:23:35 IST 2020: Modal to Modal comparison is successful
+2020-03-10 18:23:35,508 [main] INFO com.hellofresh.utils.TestUtils - INFO Tue Mar 10 18:23:35 IST 2020: Modal to Modal comparison is successful
+2020-03-10 18:23:35,510 - com.hellofresh.test.DriverTest -INFO - INFO Tue Mar 10 18:23:35 IST 2020: Request modal and response modal do match
+2020-03-10 18:23:35,510 [main] INFO com.hellofresh.test.DriverTest - INFO Tue Mar 10 18:23:35 IST 2020: Request modal and response modal do match
+2020-03-10 18:23:35,515 - com.hellofresh.test.DriverTest -INFO - INFO Tue Mar 10 18:23:35 IST 2020: PASSED: TC02_GET_RetrieveBookingById
+2020-03-10 18:23:35,515 [main] INFO com.hellofresh.test.DriverTest - INFO Tue Mar 10 18:23:35 IST 2020: PASSED: TC02_GET_RetrieveBookingById
+2020-03-10 18:23:36,746 - HelloFresh.APIProject -INFO - Started Test: TC03_POST_CreateBooking
+2020-03-10 18:23:36,746 [main] INFO HelloFresh.APIProject - Started Test: TC03_POST_CreateBooking
+2020-03-10 18:23:36,753 - com.hellofresh.test.DriverTest -INFO - INFO Tue Mar 10 18:23:36 IST 2020: End point set as: /booking
+2020-03-10 18:23:36,753 [main] INFO com.hellofresh.test.DriverTest - INFO Tue Mar 10 18:23:36 IST 2020: End point set as: /booking
+2020-03-10 18:23:36,756 - com.hellofresh.test.DriverTest -INFO - INFO Tue Mar 10 18:23:36 IST 2020: Building of POST request modal is completed
+2020-03-10 18:23:36,756 [main] INFO com.hellofresh.test.DriverTest - INFO Tue Mar 10 18:23:36 IST 2020: Building of POST request modal is completed
+2020-03-10 18:23:36,758 - com.hellofresh.test.DriverTest -INFO - INFO Tue Mar 10 18:23:36 IST 2020: Make POST call to create a booking
+2020-03-10 18:23:36,758 [main] INFO com.hellofresh.test.DriverTest - INFO Tue Mar 10 18:23:36 IST 2020: Make POST call to create a booking
+2020-03-10 18:23:36,760 - com.hellofresh.services.ServiceClass -INFO - INFO Tue Mar 10 18:23:36 IST 2020: Calling POST request by passing URI and BOOKING modal
+2020-03-10 18:23:36,760 [main] INFO com.hellofresh.services.ServiceClass - INFO Tue Mar 10 18:23:36 IST 2020: Calling POST request by passing URI and BOOKING modal
+2020-03-10 18:23:37,754 - com.hellofresh.services.ServiceClass -INFO - INFO Tue Mar 10 18:23:37 IST 2020: POST call is succesful
+2020-03-10 18:23:37,754 [main] INFO com.hellofresh.services.ServiceClass - INFO Tue Mar 10 18:23:37 IST 2020: POST call is succesful
+2020-03-10 18:23:37,756 - com.hellofresh.utils.TestUtils -INFO - INFO Tue Mar 10 18:23:37 IST 2020: Http Response Status code is as expected : 201
+2020-03-10 18:23:37,756 [main] INFO com.hellofresh.utils.TestUtils - INFO Tue Mar 10 18:23:37 IST 2020: Http Response Status code is as expected : 201
+2020-03-10 18:23:37,758 - com.hellofresh.utils.TestUtils -INFO - INFO Tue Mar 10 18:23:37 IST 2020: Reponse body extracted
+2020-03-10 18:23:37,758 [main] INFO com.hellofresh.utils.TestUtils - INFO Tue Mar 10 18:23:37 IST 2020: Reponse body extracted
+2020-03-10 18:23:37,760 - com.hellofresh.test.DriverTest -INFO - INFO Tue Mar 10 18:23:37 IST 2020: Response body has been converted to required modal
+2020-03-10 18:23:37,760 [main] INFO com.hellofresh.test.DriverTest - INFO Tue Mar 10 18:23:37 IST 2020: Response body has been converted to required modal
+2020-03-10 18:23:37,762 - com.hellofresh.utils.TestUtils -INFO - INFO Tue Mar 10 18:23:37 IST 2020: Http Response Status code is as expected : 201
+2020-03-10 18:23:37,762 [main] INFO com.hellofresh.utils.TestUtils - INFO Tue Mar 10 18:23:37 IST 2020: Http Response Status code is as expected : 201
+2020-03-10 18:23:37,764 - com.hellofresh.services.ServiceClass -INFO - INFO Tue Mar 10 18:23:37 IST 2020: Calling GET request by passing URI and booking Id
+2020-03-10 18:23:37,764 [main] INFO com.hellofresh.services.ServiceClass - INFO Tue Mar 10 18:23:37 IST 2020: Calling GET request by passing URI and booking Id
+2020-03-10 18:23:38,791 - com.hellofresh.services.ServiceClass -INFO - INFO Tue Mar 10 18:23:38 IST 2020: GET call is succesful
+2020-03-10 18:23:38,791 [main] INFO com.hellofresh.services.ServiceClass - INFO Tue Mar 10 18:23:38 IST 2020: GET call is succesful
+2020-03-10 18:23:38,793 - com.hellofresh.utils.TestUtils -INFO - INFO Tue Mar 10 18:23:38 IST 2020: Http Response Status code is as expected : 200
+2020-03-10 18:23:38,793 [main] INFO com.hellofresh.utils.TestUtils - INFO Tue Mar 10 18:23:38 IST 2020: Http Response Status code is as expected : 200
+2020-03-10 18:23:38,795 - com.hellofresh.test.DriverTest -INFO - INFO Tue Mar 10 18:23:38 IST 2020: New booking created
+2020-03-10 18:23:38,795 [main] INFO com.hellofresh.test.DriverTest - INFO Tue Mar 10 18:23:38 IST 2020: New booking created
+2020-03-10 18:23:38,801 - com.hellofresh.test.DriverTest -INFO - INFO Tue Mar 10 18:23:38 IST 2020: PASSED: TC03_POST_CreateBooking
+2020-03-10 18:23:38,801 [main] INFO com.hellofresh.test.DriverTest - INFO Tue Mar 10 18:23:38 IST 2020: PASSED: TC03_POST_CreateBooking
+2020-03-10 18:23:38,804 - HelloFresh.APIProject -INFO - Test execution of HelloFresh API tests is complete
+2020-03-10 18:23:38,804 [main] INFO HelloFresh.APIProject - Test execution of HelloFresh API tests is complete
+2020-03-10 18:23:38,841 - HelloFresh.APIProject -INFO - Starting HelloFresh API tests
+2020-03-10 18:23:38,841 [main] INFO HelloFresh.APIProject - Starting HelloFresh API tests
+2020-03-10 18:23:38,843 - HelloFresh.APIProject -INFO - Started Test: TC05_POST_CreateBookinDuplicateForSameDate
+2020-03-10 18:23:38,843 [main] INFO HelloFresh.APIProject - Started Test: TC05_POST_CreateBookinDuplicateForSameDate
+2020-03-10 18:23:38,846 - HelloFresh.APIProject -INFO - End point set as: /booking
+2020-03-10 18:23:38,846 [main] INFO HelloFresh.APIProject - End point set as: /booking
+2020-03-10 18:23:38,848 - HelloFresh.APIProject -INFO - Deserializing the JSON file to BookingModal
+2020-03-10 18:23:38,848 [main] INFO HelloFresh.APIProject - Deserializing the JSON file to BookingModal
+2020-03-10 18:23:38,849 - com.hellofresh.services.ServiceClass -INFO - INFO Tue Mar 10 18:23:38 IST 2020: Calling POST request by passing URI and BOOKING modal
+2020-03-10 18:23:38,849 [main] INFO com.hellofresh.services.ServiceClass - INFO Tue Mar 10 18:23:38 IST 2020: Calling POST request by passing URI and BOOKING modal
+2020-03-10 18:23:39,638 - com.hellofresh.services.ServiceClass -INFO - INFO Tue Mar 10 18:23:39 IST 2020: POST call is succesful
+2020-03-10 18:23:39,638 [main] INFO com.hellofresh.services.ServiceClass - INFO Tue Mar 10 18:23:39 IST 2020: POST call is succesful
+2020-03-10 18:23:39,641 - com.hellofresh.utils.TestUtils -INFO - INFO Tue Mar 10 18:23:39 IST 2020: Http Response Status code is as expected : 201
+2020-03-10 18:23:39,641 [main] INFO com.hellofresh.utils.TestUtils - INFO Tue Mar 10 18:23:39 IST 2020: Http Response Status code is as expected : 201
+2020-03-10 18:23:39,643 - HelloFresh.APIProject -INFO - POST call made to create a second booking with same details
+2020-03-10 18:23:39,643 [main] INFO HelloFresh.APIProject - POST call made to create a second booking with same details
+2020-03-10 18:23:39,644 - com.hellofresh.services.ServiceClass -INFO - INFO Tue Mar 10 18:23:39 IST 2020: Calling POST request by passing URI and BOOKING modal
+2020-03-10 18:23:39,644 [main] INFO com.hellofresh.services.ServiceClass - INFO Tue Mar 10 18:23:39 IST 2020: Calling POST request by passing URI and BOOKING modal
+2020-03-10 18:23:40,598 - com.hellofresh.services.ServiceClass -INFO - INFO Tue Mar 10 18:23:40 IST 2020: POST call is succesful
+2020-03-10 18:23:40,598 [main] INFO com.hellofresh.services.ServiceClass - INFO Tue Mar 10 18:23:40 IST 2020: POST call is succesful
+2020-03-10 18:23:40,600 - com.hellofresh.utils.TestUtils -INFO - INFO Tue Mar 10 18:23:40 IST 2020: Http Response Status code is as expected : 409
+2020-03-10 18:23:40,600 [main] INFO com.hellofresh.utils.TestUtils - INFO Tue Mar 10 18:23:40 IST 2020: Http Response Status code is as expected : 409
+2020-03-10 18:23:40,604 - HelloFresh.APIProject -INFO - Completed Test: TC05_POST_CreateBookinDuplicateForSameDate
+2020-03-10 18:23:40,604 [main] INFO HelloFresh.APIProject - Completed Test: TC05_POST_CreateBookinDuplicateForSameDate
+2020-03-10 18:23:40,606 - HelloFresh.APIProject -INFO - Started Test: TC06_GET_IncorrectUriTest
+2020-03-10 18:23:40,606 [main] INFO HelloFresh.APIProject - Started Test: TC06_GET_IncorrectUriTest
+2020-03-10 18:23:40,608 - com.hellofresh.services.ServiceClass -INFO - INFO Tue Mar 10 18:23:40 IST 2020: Calling GET request by passing URI and booking Id
+2020-03-10 18:23:40,608 [main] INFO com.hellofresh.services.ServiceClass - INFO Tue Mar 10 18:23:40 IST 2020: Calling GET request by passing URI and booking Id
+2020-03-10 18:23:41,558 - com.hellofresh.services.ServiceClass -INFO - INFO Tue Mar 10 18:23:41 IST 2020: GET call is succesful
+2020-03-10 18:23:41,558 [main] INFO com.hellofresh.services.ServiceClass - INFO Tue Mar 10 18:23:41 IST 2020: GET call is succesful
+2020-03-10 18:23:41,560 - com.hellofresh.utils.TestUtils -INFO - INFO Tue Mar 10 18:23:41 IST 2020: Http Response Status code is as expected : 404
+2020-03-10 18:23:41,560 [main] INFO com.hellofresh.utils.TestUtils - INFO Tue Mar 10 18:23:41 IST 2020: Http Response Status code is as expected : 404
+2020-03-10 18:23:41,562 - com.hellofresh.utils.TestUtils -INFO - INFO Tue Mar 10 18:23:41 IST 2020: Reponse body extracted
+2020-03-10 18:23:41,562 [main] INFO com.hellofresh.utils.TestUtils - INFO Tue Mar 10 18:23:41 IST 2020: Reponse body extracted
+2020-03-10 18:23:41,566 - HelloFresh.APIProject -INFO - Deserializing the JSON file to 404Error_DataModal
+2020-03-10 18:23:41,566 [main] INFO HelloFresh.APIProject - Deserializing the JSON file to 404Error_DataModal
+2020-03-10 18:23:41,571 - com.hellofresh.utils.TestUtils -INFO - INFO Tue Mar 10 18:23:41 IST 2020: Modal to Modal comparison is successful
+2020-03-10 18:23:41,571 [main] INFO com.hellofresh.utils.TestUtils - INFO Tue Mar 10 18:23:41 IST 2020: Modal to Modal comparison is successful
+2020-03-10 18:23:41,572 - HelloFresh.APIProject -INFO - Modal to Modal comparison is sucessful
+2020-03-10 18:23:41,572 [main] INFO HelloFresh.APIProject - Modal to Modal comparison is sucessful
+2020-03-10 18:23:41,575 - HelloFresh.APIProject -INFO - Completed Test: TC06_GET_IncorrectUriTest
+2020-03-10 18:23:41,575 [main] INFO HelloFresh.APIProject - Completed Test: TC06_GET_IncorrectUriTest
+2020-03-10 18:23:41,577 - HelloFresh.APIProject -INFO - Started Test: TC07_POST_CheckinDateGreaterThanCheckoutDate
+2020-03-10 18:23:41,577 [main] INFO HelloFresh.APIProject - Started Test: TC07_POST_CheckinDateGreaterThanCheckoutDate
+2020-03-10 18:23:41,579 - HelloFresh.APIProject -INFO - End point set as: /booking
+2020-03-10 18:23:41,579 [main] INFO HelloFresh.APIProject - End point set as: /booking
+2020-03-10 18:23:41,581 - HelloFresh.APIProject -INFO - Deserializing the JSON file to BookingModal
+2020-03-10 18:23:41,581 [main] INFO HelloFresh.APIProject - Deserializing the JSON file to BookingModal
+2020-03-10 18:23:41,581 - HelloFresh.APIProject -INFO - Check-out date modified to be less than Check-in date
+2020-03-10 18:23:41,581 [main] INFO HelloFresh.APIProject - Check-out date modified to be less than Check-in date
+2020-03-10 18:23:41,582 - com.hellofresh.services.ServiceClass -INFO - INFO Tue Mar 10 18:23:41 IST 2020: Calling POST request by passing URI and BOOKING modal
+2020-03-10 18:23:41,582 [main] INFO com.hellofresh.services.ServiceClass - INFO Tue Mar 10 18:23:41 IST 2020: Calling POST request by passing URI and BOOKING modal
+2020-03-10 18:23:42,358 - com.hellofresh.services.ServiceClass -INFO - INFO Tue Mar 10 18:23:42 IST 2020: POST call is succesful
+2020-03-10 18:23:42,358 [main] INFO com.hellofresh.services.ServiceClass - INFO Tue Mar 10 18:23:42 IST 2020: POST call is succesful
+2020-03-10 18:23:42,360 - com.hellofresh.utils.TestUtils -INFO - INFO Tue Mar 10 18:23:42 IST 2020: Http Response Status code is as expected : 409
+2020-03-10 18:23:42,360 [main] INFO com.hellofresh.utils.TestUtils - INFO Tue Mar 10 18:23:42 IST 2020: Http Response Status code is as expected : 409
+2020-03-10 18:23:42,364 - HelloFresh.APIProject -INFO - Completed Test: TC07_POST_CheckinDateGreaterThanCheckoutDate
+2020-03-10 18:23:42,364 [main] INFO HelloFresh.APIProject - Completed Test: TC07_POST_CheckinDateGreaterThanCheckoutDate
+2020-03-10 18:23:42,567 - HelloFresh.APIProject -INFO - Started Test: TC08_POST_CreateBookingWithMissingData
+2020-03-10 18:23:42,567 [main] INFO HelloFresh.APIProject - Started Test: TC08_POST_CreateBookingWithMissingData
+2020-03-10 18:23:42,580 - HelloFresh.APIProject -INFO - Starting TEST STEP: FirstName_Missing
+2020-03-10 18:23:42,580 [main] INFO HelloFresh.APIProject - Starting TEST STEP: FirstName_Missing
+2020-03-10 18:23:42,582 - HelloFresh.APIProject -INFO - End point set as: /booking
+2020-03-10 18:23:42,582 [main] INFO HelloFresh.APIProject - End point set as: /booking
+2020-03-10 18:23:42,584 - HelloFresh.APIProject -INFO - Building of POST request modal is completed
+2020-03-10 18:23:42,584 [main] INFO HelloFresh.APIProject - Building of POST request modal is completed
+2020-03-10 18:23:42,587 - HelloFresh.APIProject -INFO - Make POST call to create a booking
+2020-03-10 18:23:42,587 [main] INFO HelloFresh.APIProject - Make POST call to create a booking
+2020-03-10 18:23:42,589 - com.hellofresh.services.ServiceClass -INFO - INFO Tue Mar 10 18:23:42 IST 2020: Calling POST request by passing URI and BOOKING modal
+2020-03-10 18:23:42,589 [main] INFO com.hellofresh.services.ServiceClass - INFO Tue Mar 10 18:23:42 IST 2020: Calling POST request by passing URI and BOOKING modal
+2020-03-10 18:23:43,479 - com.hellofresh.services.ServiceClass -INFO - INFO Tue Mar 10 18:23:43 IST 2020: POST call is succesful
+2020-03-10 18:23:43,479 [main] INFO com.hellofresh.services.ServiceClass - INFO Tue Mar 10 18:23:43 IST 2020: POST call is succesful
+2020-03-10 18:23:43,481 - HelloFresh.APIProject -INFO - Validating for case: FirstName_Missing
+2020-03-10 18:23:43,481 [main] INFO HelloFresh.APIProject - Validating for case: FirstName_Missing
+2020-03-10 18:23:43,482 - com.hellofresh.utils.TestUtils -INFO - INFO Tue Mar 10 18:23:43 IST 2020: Http Response Status code is as expected : 400
+2020-03-10 18:23:43,482 [main] INFO com.hellofresh.utils.TestUtils - INFO Tue Mar 10 18:23:43 IST 2020: Http Response Status code is as expected : 400
+2020-03-10 18:23:43,483 - HelloFresh.APIProject -INFO - Completed TEST STEP: FirstName_Missing
+2020-03-10 18:23:43,483 [main] INFO HelloFresh.APIProject - Completed TEST STEP: FirstName_Missing
+2020-03-10 18:23:43,486 - HelloFresh.APIProject -INFO - Completed Test: TC08_POST_CreateBookingWithMissingData
+2020-03-10 18:23:43,486 [main] INFO HelloFresh.APIProject - Completed Test: TC08_POST_CreateBookingWithMissingData
+2020-03-10 18:23:43,487 - HelloFresh.APIProject -INFO - Started Test: TC08_POST_CreateBookingWithMissingData
+2020-03-10 18:23:43,487 [main] INFO HelloFresh.APIProject - Started Test: TC08_POST_CreateBookingWithMissingData
+2020-03-10 18:23:43,489 - HelloFresh.APIProject -INFO - Starting TEST STEP: Email_Incorrect_Format
+2020-03-10 18:23:43,489 [main] INFO HelloFresh.APIProject - Starting TEST STEP: Email_Incorrect_Format
+2020-03-10 18:23:43,489 - HelloFresh.APIProject -INFO - End point set as: /booking
+2020-03-10 18:23:43,489 [main] INFO HelloFresh.APIProject - End point set as: /booking
+2020-03-10 18:23:43,490 - HelloFresh.APIProject -INFO - Building of POST request modal is completed
+2020-03-10 18:23:43,490 [main] INFO HelloFresh.APIProject - Building of POST request modal is completed
+2020-03-10 18:23:43,490 - HelloFresh.APIProject -INFO - Make POST call to create a booking
+2020-03-10 18:23:43,490 [main] INFO HelloFresh.APIProject - Make POST call to create a booking
+2020-03-10 18:23:43,491 - com.hellofresh.services.ServiceClass -INFO - INFO Tue Mar 10 18:23:43 IST 2020: Calling POST request by passing URI and BOOKING modal
+2020-03-10 18:23:43,491 [main] INFO com.hellofresh.services.ServiceClass - INFO Tue Mar 10 18:23:43 IST 2020: Calling POST request by passing URI and BOOKING modal
+2020-03-10 18:23:44,437 - com.hellofresh.services.ServiceClass -INFO - INFO Tue Mar 10 18:23:44 IST 2020: POST call is succesful
+2020-03-10 18:23:44,437 [main] INFO com.hellofresh.services.ServiceClass - INFO Tue Mar 10 18:23:44 IST 2020: POST call is succesful
+2020-03-10 18:23:44,439 - com.hellofresh.utils.TestUtils -INFO - INFO Tue Mar 10 18:23:44 IST 2020: Http Response Status code is as expected : 400
+2020-03-10 18:23:44,439 [main] INFO com.hellofresh.utils.TestUtils - INFO Tue Mar 10 18:23:44 IST 2020: Http Response Status code is as expected : 400
+2020-03-10 18:23:44,440 - HelloFresh.APIProject -INFO - Completed TEST STEP: Email_Incorrect_Format
+2020-03-10 18:23:44,440 [main] INFO HelloFresh.APIProject - Completed TEST STEP: Email_Incorrect_Format
+2020-03-10 18:23:44,443 - HelloFresh.APIProject -INFO - Completed Test: TC08_POST_CreateBookingWithMissingData
+2020-03-10 18:23:44,443 [main] INFO HelloFresh.APIProject - Completed Test: TC08_POST_CreateBookingWithMissingData
+2020-03-10 18:23:44,444 - HelloFresh.APIProject -INFO - Started Test: TC08_POST_CreateBookingWithMissingData
+2020-03-10 18:23:44,444 [main] INFO HelloFresh.APIProject - Started Test: TC08_POST_CreateBookingWithMissingData
+2020-03-10 18:23:44,446 - HelloFresh.APIProject -INFO - Starting TEST STEP: RoomId_Zero
+2020-03-10 18:23:44,446 [main] INFO HelloFresh.APIProject - Starting TEST STEP: RoomId_Zero
+2020-03-10 18:23:44,446 - HelloFresh.APIProject -INFO - End point set as: /booking
+2020-03-10 18:23:44,446 [main] INFO HelloFresh.APIProject - End point set as: /booking
+2020-03-10 18:23:44,446 - HelloFresh.APIProject -INFO - Building of POST request modal is completed
+2020-03-10 18:23:44,446 [main] INFO HelloFresh.APIProject - Building of POST request modal is completed
+2020-03-10 18:23:44,446 - HelloFresh.APIProject -INFO - Make POST call to create a booking
+2020-03-10 18:23:44,446 [main] INFO HelloFresh.APIProject - Make POST call to create a booking
+2020-03-10 18:23:44,447 - com.hellofresh.services.ServiceClass -INFO - INFO Tue Mar 10 18:23:44 IST 2020: Calling POST request by passing URI and BOOKING modal
+2020-03-10 18:23:44,447 [main] INFO com.hellofresh.services.ServiceClass - INFO Tue Mar 10 18:23:44 IST 2020: Calling POST request by passing URI and BOOKING modal
+2020-03-10 18:23:45,399 - com.hellofresh.services.ServiceClass -INFO - INFO Tue Mar 10 18:23:45 IST 2020: POST call is succesful
+2020-03-10 18:23:45,399 [main] INFO com.hellofresh.services.ServiceClass - INFO Tue Mar 10 18:23:45 IST 2020: POST call is succesful
+2020-03-10 18:23:45,401 - com.hellofresh.utils.TestUtils -INFO - INFO Tue Mar 10 18:23:45 IST 2020: Http Response Status code is as expected : 400
+2020-03-10 18:23:45,401 [main] INFO com.hellofresh.utils.TestUtils - INFO Tue Mar 10 18:23:45 IST 2020: Http Response Status code is as expected : 400
+2020-03-10 18:23:45,403 - HelloFresh.APIProject -INFO - Completed TEST STEP: RoomId_Zero
+2020-03-10 18:23:45,403 [main] INFO HelloFresh.APIProject - Completed TEST STEP: RoomId_Zero
+2020-03-10 18:23:45,405 - HelloFresh.APIProject -INFO - Completed Test: TC08_POST_CreateBookingWithMissingData
+2020-03-10 18:23:45,405 [main] INFO HelloFresh.APIProject - Completed Test: TC08_POST_CreateBookingWithMissingData
+2020-03-10 18:23:45,406 - HelloFresh.APIProject -INFO - Test execution of HelloFresh API tests is complete
+2020-03-10 18:23:45,406 [main] INFO HelloFresh.APIProject - Test execution of HelloFresh API tests is complete
