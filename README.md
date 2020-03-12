@@ -1,4 +1,4 @@
-## HelloFresh_API_Project
+## HttpClient_APIAutomation_Project
 The purpose of this project is to automate testing of the RESTful API's for a Booking application
 
 ## Overview
